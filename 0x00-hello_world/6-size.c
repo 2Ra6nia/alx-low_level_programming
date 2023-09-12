@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- *main - entry point 
+ * main - entry point
  *
- *Description: using sizeof to print the size of variable data
+ * Description: using sizeof to print the size of various types
  *
- *Return: always 0(seccess)
+ * Return: always 0(seccess)
 */
-
 int main(void)
 {
 printf("size of a char: %lu ", sizeof(char));
