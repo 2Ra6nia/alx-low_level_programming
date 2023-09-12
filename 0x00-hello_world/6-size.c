@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ *main - entry point 
+ *
+ *Description: using sizeof to print the size of variable data
+ *
+ *Return: always 0(seccess)
+*/
+
+int main(void)
+{
+printf("size of a char: %lu ", sizeof(char));
+printf("size of a int: %lu ", sizeof(int));
+printf("size of a long int %lu ", sizeof(long int));
+printf("size of a long long int: %ul", sizeof(long long int));
+printf("size of afloat: %lu ", sizeof(float));
+return (0);
+}
