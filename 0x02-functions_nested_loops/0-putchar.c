@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * description: a C program print
+ * description: a C program print with _putchar function
  *
- * return: always 0
+ * return: always 0 (seccuss)
 */
 
 int main(void)
