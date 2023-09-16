@@ -6,6 +6,7 @@
  * numbers that are mltiples of 5 print Buzz
  * numbers thast are mltiples of 3 and 5 print FizzBuzz
  * each number and word to be separeted by space
+ * Return: always 0 (success)
 */
 
 int main(void)
@@ -24,7 +25,7 @@ printf("%d", num);
 if (num != 100)
 printf(" ");
 else
-pintf("\n");
+printf("\n");
 }
 return (0);
 }
