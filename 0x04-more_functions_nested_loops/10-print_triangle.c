@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_trinagle - print a triangle
+ * print_triangle - print a triangle with # charchter
  * @size: size of traingle
  * return: always 0 (success)
 */
@@ -23,7 +23,7 @@ _putchar(' ');
 else
 _putchar('#');
 }
-utchar('\n');
+_putchar('\n');
 }
 }
 }
