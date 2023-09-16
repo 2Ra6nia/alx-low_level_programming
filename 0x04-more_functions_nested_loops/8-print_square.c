@@ -18,7 +18,7 @@ else
 {
 for (rows = 1; rows <= size; rows++)
 {
-for (column = 1; cloumn <= size; column++)
+for (column = 1; column <= size; column++)
 _putchar('#');
 _putchar('\n');
 }
