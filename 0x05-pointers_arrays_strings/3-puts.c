@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _put - prints a string followed by a newline to stdout
- * @str: string parameter yo print
+ * _puts - prints a string followed by a newline to stdout
+ * @str: string parameter to print
  * Return: Nothing
 */
 
-void _put(char *str)
+void _puts(char *str)
 {
 while (*str != '\0')
 {
