@@ -25,7 +25,7 @@ return (p);
 }
 j++;
 }
-i++
+i++;
 }
 return (0);
 }
