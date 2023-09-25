@@ -13,7 +13,7 @@ int a;
 int b;
 a = 0;
 while (dest[c])
-c++;
+a++;
 for (b = 0; src[b]; b++)
 dest[a++] = src[b];
 return (dest);
