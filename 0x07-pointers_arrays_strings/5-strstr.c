@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 
 /**
 * *_strstr - locates a substring.
@@ -22,5 +22,5 @@ l++;
 if (*l == '\0')
 return (haystack);
 }
-return (0);
+return ('\0');
 }
