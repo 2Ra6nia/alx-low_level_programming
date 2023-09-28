@@ -8,6 +8,12 @@
 
 void _puts_recursion(char *s)
 {
-
-_putchar("%p", s);
+char c;
+if (*s == '\0')
+{
+return;
+}
+c = *s;
+_putchar("%c", c);
+_puts_recursion(s + 1);
 }
