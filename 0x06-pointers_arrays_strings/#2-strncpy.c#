@@ -4,6 +4,7 @@
 /**
  * *_strncpy - copies a string.
  * @dest : pointer to source input buffer
+
  * Return: @dest
 */
 
