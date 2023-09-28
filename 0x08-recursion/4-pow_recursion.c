@@ -23,6 +23,6 @@ else if (y == 1)
 {
 return (y);
 }
-p = x * _pow_recursion(x, y);
+p = (x * _pow_recursion(x, y - 1);
 return (p);
 }
