@@ -1,4 +1,3 @@
-#include <math.h>
 #include "main.h"
 
 /**
@@ -24,6 +23,6 @@ else if (y == 1)
 {
 return (y);
 }
-p = pow(x, y);
+p = x * _pow_recursion(x, y);
 return (p);
 }
