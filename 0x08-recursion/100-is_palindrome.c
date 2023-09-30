@@ -9,9 +9,8 @@
 
 int is_palindrome(char *s)
 {
-char c;
-c = *s;
-if (*s >= c)
+
+if (*s == !*s)
 {
 return (1);
 }
