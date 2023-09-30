@@ -9,12 +9,12 @@
 
 void _print_rev_recursion(char *s)
 {
-char *c;
+char c;
 if (*s == '\0')
 {
 return;
 }
-*c == *s;
-_putchar(*c);
+c = *s;
+_putchar(c);
 _print_rev_recursion(s + 1);
 }
