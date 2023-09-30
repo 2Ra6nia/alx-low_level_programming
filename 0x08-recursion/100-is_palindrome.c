@@ -14,5 +14,8 @@ if (*s == ~*s)
 {
 return (1);
 }
+if (*s != ~*s)
+{
 return (0);
+}
 }
