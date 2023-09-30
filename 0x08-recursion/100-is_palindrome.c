@@ -9,13 +9,11 @@
 
 int is_palindrome(char *s)
 {
-
-if (*s == ~*s)
+char c;
+c = ~*s
+if (*s == c)
 {
 return (1);
 }
-if (*s != ~*s)
-{
 return (0);
-}
 }
