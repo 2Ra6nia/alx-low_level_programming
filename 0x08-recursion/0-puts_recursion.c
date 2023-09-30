@@ -1,7 +1,7 @@
 #include  "main.h"
 
 /**
- * _puts_recursion - prints a string, followed by a new line.
+ * _puts_recursion - prints a string, followed by a new line
  * @s: poinetr that store string
  * Return: nothing
 */
@@ -12,7 +12,7 @@ char c;
 c = *s;
 if (*s == '\0')
 {
-_putchar('\n');
+return;
 }
 _putchar(c);
 _puts_recursion(s + 1);
