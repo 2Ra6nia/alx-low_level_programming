@@ -8,12 +8,16 @@
 
 void _puts_recursion(char *s)
 {
-char c;
-c = *s;
-if (*s != '\0')
+
+if (*s == '\0')
 {
-_putchar(c);
-_puts_recursion(s + 1);
-}
+_putchar('\n');
 return;
+}
+else
+{
+_putchar(*s);
+s++;
+_puts_recursion(s);
+}
 }
