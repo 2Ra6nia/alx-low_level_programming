@@ -11,9 +11,9 @@ int is_palindrome(char *s)
 {
 char c;
 c = *s;
-if (*s == !c)
+if (*s >= c)
 {
-return (0);
-}
 return (1);
+}
+return (0);
 }
