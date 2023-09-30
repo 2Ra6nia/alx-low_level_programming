@@ -15,6 +15,6 @@ if (*s == '\0')
 return;
 }
 c = *s;
-_putchar(c);
 _print_rev_recursion(s + 1);
+_putchar(c);
 }
