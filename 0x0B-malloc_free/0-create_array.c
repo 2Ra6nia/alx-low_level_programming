@@ -22,7 +22,7 @@ if (array  == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < size; i++)
+while (size--)
 {
 array[size] = c;
 }
