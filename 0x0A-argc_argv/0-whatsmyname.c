@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
+(void)argc;
 printf("the progam name:%s\n", argv[0]);
 return (0);
 }
