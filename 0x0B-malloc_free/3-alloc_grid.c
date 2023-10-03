@@ -20,7 +20,7 @@ return (NULL);
 }
 else
 {
-for (i = 0; i < hieght; i++)
+for (i = 0; i < height; i++)
 {
 tab[i] = malloc(sizeof(**tab) * width);
 if (tab[i] == 0)
