@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - entry point
- *description: prints the argument its recive
- *@argc: argument counter
- *@argv: an array
- *return: 0 (success)
+ * main - entry point
+ * Description: prints the argument its recive
+ * @argc: argument counter
+ * @argv: an array
+ * Return: 0 (success)
 */
 
 int main(int argc, char *argv[])
