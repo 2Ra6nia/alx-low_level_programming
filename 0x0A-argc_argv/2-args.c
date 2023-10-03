@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ *main - entry point
+ *description: prints the argument its recive
+ *@argc: argument counter
+ *@argv: an array
+ *return: 0 (success)
+*/
+
+int main(int argc, char *argv[])
+{
+int i;
+for (i = 0; i < argc; i++)
+printf("%s\n", argv[i]);
+return (0);
+}
