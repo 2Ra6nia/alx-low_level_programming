@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _strlen - find lenght of string
@@ -35,8 +36,8 @@ if (s1 == NULL)
 s1 = "\0";
 if (s2 == NULL)
 s2 = "\0";
-size1 = strlen(s1);
-size2 = strlen(s2);
+size1 = _strlen(s1);
+size2 = _strlen(s2);
 m = malloc((size1 + size2) *sizeof(char) + 1);
 if (m == 0)
 return (0);
