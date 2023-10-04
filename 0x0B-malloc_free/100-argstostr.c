@@ -45,4 +45,3 @@ cmpt++;
 s[cmpt] = '\0';
 return (s);
 }
-}
