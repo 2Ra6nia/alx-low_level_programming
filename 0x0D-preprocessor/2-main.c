@@ -2,10 +2,9 @@
 /**
  * main - entry point
  * Description: prints the file name
- * Return: 0 (success)
+ * Return: the file name
 */
 int main(void)
 {
-_putchar(__FILE__);
-return (0);
+return (__FILE__);
 }
