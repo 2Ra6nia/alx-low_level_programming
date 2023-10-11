@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-const char* name = __FILE__;
+const char *name = __FILE__;
 int i;
 for (i = 0; name[i] != '\0'; i++)
 _putchar(name[i]);
