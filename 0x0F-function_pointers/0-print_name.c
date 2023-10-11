@@ -12,6 +12,6 @@ void print_name(char *name, void (*f)(char *))
 {
 int i;
 for (i = 0; name[i] != '\0'; i++)
-f = name[i];
-_putchar(name[i]);
+f(name[i]);
+_putchar(i);
 }
