@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers, followed by a new line.
- * @s: the string to be printed between numbers
+ * @separator: the string to be printed between numbers
  * @n: the number of integers passed to the function
  * Return: Nothing
 */
