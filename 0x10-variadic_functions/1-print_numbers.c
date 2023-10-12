@@ -15,8 +15,6 @@ va_list args;
 va_start(args, n);
 if (separator == NULL)
 return;
-if (n == 0)
-return;
 for (i = 0; i < n; i++)
 {
 num += va_arg(args, int);
