@@ -10,7 +10,6 @@ void print_binary(unsigned long int n)
 {
 int bit = sizeof(n) * 8;
 int p = 0;
-if (!b)
 while (bit)
 {
 if (n & 1L << --bit)
