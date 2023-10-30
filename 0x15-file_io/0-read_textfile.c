@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * read_textfile - reads a text file and prints it
+ * @filename: a pointer variable
+ * @letters: the number of letters should read and prints.
+ * Return: 0 (success)
+*/
+
+ssize_t read_textfile(const char *filename, size_t letters)
+{
+FILE *fp;
+fp = fopen("filename", "r");
+while (fp != NULL)
+{
+_putchar(letters);
+letters++;
+}
+return (0);
+if (filename == 0)
+{
+return (0);
+}
+fclose(fp);
+return (0);
+}
