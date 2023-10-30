@@ -11,13 +11,20 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 FILE *fp;
 fp = fopen("filename", "r");
-while (fp != NULL)
+if (fp == NULL)
+{
+return (0);
+ }
+ else
 {
 _putchar(letters);
 letters++;
 }
+if (filename == NULL)
+{
 return (0);
-if (filename == 0)
+}
+if (letters == 0)
 {
 return (0);
 }
