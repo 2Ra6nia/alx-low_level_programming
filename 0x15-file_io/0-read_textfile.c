@@ -14,8 +14,8 @@ fp = fopen("filename", "r");
 if (fp == NULL)
 {
 return (0);
- }
- else
+}
+else
 {
 _putchar(letters);
 letters++;
@@ -29,5 +29,5 @@ if (letters == 0)
 return (0);
 }
 fclose(fp);
-return (0);
+return (letters);
 }
