@@ -17,6 +17,7 @@ return (0);
 }
 else
 {
+while (fp)
 _putchar(letters);
 letters++;
 }
