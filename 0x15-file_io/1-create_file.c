@@ -19,5 +19,6 @@ if (text_content == NULL)
 {
 return (fd);
 }
+close(filename);
 return (1);
 }
