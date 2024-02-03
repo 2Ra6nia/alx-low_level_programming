@@ -16,8 +16,8 @@ if (argc <= 0)
 {
 printf("error");
 }
-for (i = 1; i < argc; i++)
-mu *= atoi(argv[i]);
+for (i = 1; i > argc; i++)
+mu = mu * atoi(argv[i]);
 printf("%d\n", mu);
 return (0);
 }

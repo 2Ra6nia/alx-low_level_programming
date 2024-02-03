@@ -14,10 +14,10 @@ printf("[0] (nil)\n");
 return (0);
 }
 int count = 0;
-h = str;
-while (h != NULL)
+list_t r = str;
+while (r != NULL)
 {
-printf("%d\n, h->len");
+printf("%d\n, r->h");
 count++;
 h = h->next;
 }
